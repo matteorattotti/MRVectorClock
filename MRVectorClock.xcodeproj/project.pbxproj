@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CC7B4171AE9373E00F4B1C5 /* MRVectorClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7B4161AE9373E00F4B1C5 /* MRVectorClockTests.m */; };
+		0CC7B41E1AE938BF00F4B1C5 /* MRVectorClock.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC7B41D1AE938BF00F4B1C5 /* MRVectorClock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0CC7B4111AE9373E00F4B1C5 /* MRVectorClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MRVectorClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC7B4151AE9373E00F4B1C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CC7B4161AE9373E00F4B1C5 /* MRVectorClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRVectorClockTests.m; sourceTree = "<group>"; };
+		0CC7B41C1AE938BF00F4B1C5 /* MRVectorClock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRVectorClock.h; sourceTree = "<group>"; };
+		0CC7B41D1AE938BF00F4B1C5 /* MRVectorClock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRVectorClock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CC7B40E1AE9373E00F4B1C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CC7B4061AE936E500F4B1C5 = {
+			isa = PBXGroup;
+			children = (
+				0CC7B41B1AE938B100F4B1C5 /* MRVectorClock */,
+				0CC7B4131AE9373E00F4B1C5 /* MRVectorClockTests */,
+				0CC7B4121AE9373E00F4B1C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CC7B4121AE9373E00F4B1C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CC7B4111AE9373E00F4B1C5 /* MRVectorClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CC7B4131AE9373E00F4B1C5 /* MRVectorClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CC7B4161AE9373E00F4B1C5 /* MRVectorClockTests.m */,
+				0CC7B4141AE9373E00F4B1C5 /* Supporting Files */,
+			);
+			path = MRVectorClockTests;
+			sourceTree = "<group>";
+		};
+		0CC7B4141AE9373E00F4B1C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CC7B4151AE9373E00F4B1C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CC7B41B1AE938B100F4B1C5 /* MRVectorClock */ = {
+			isa = PBXGroup;
+			children = (
+				0CC7B41C1AE938BF00F4B1C5 /* MRVectorClock.h */,
+				0CC7B41D1AE938BF00F4B1C5 /* MRVectorClock.m */,
+			);
+			path = MRVectorClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CC7B4101AE9373E00F4B1C5 /* MRVectorClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC7B4181AE9373E00F4B1C5 /* Build configuration list for PBXNativeTarget "MRVectorClockTests" */;
+			buildPhases = (
+				0CC7B40D1AE9373E00F4B1C5 /* Sources */,
+				0CC7B40E1AE9373E00F4B1C5 /* Frameworks */,
+				0CC7B40F1AE9373E00F4B1C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MRVectorClockTests;
+			productName = MRVectorClockTests;
+			productReference = 0CC7B4111AE9373E00F4B1C5 /* MRVectorClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CC7B4071AE936E500F4B1C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					0CC7B4101AE9373E00F4B1C5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 0CC7B40A1AE936E500F4B1C5 /* Build configuration list for PBXProject "MRVectorClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CC7B4061AE936E500F4B1C5;
+			productRefGroup = 0CC7B4121AE9373E00F4B1C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CC7B4101AE9373E00F4B1C5 /* MRVectorClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CC7B40F1AE9373E00F4B1C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CC7B40D1AE9373E00F4B1C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC7B41E1AE938BF00F4B1C5 /* MRVectorClock.m in Sources */,
+				0CC7B4171AE9373E00F4B1C5 /* MRVectorClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CC7B40B1AE936E500F4B1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0CC7B40C1AE936E500F4B1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		0CC7B4191AE9373E00F4B1C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MRVectorClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0CC7B41A1AE9373E00F4B1C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = MRVectorClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CC7B40A1AE936E500F4B1C5 /* Build configuration list for PBXProject "MRVectorClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC7B40B1AE936E500F4B1C5 /* Debug */,
+				0CC7B40C1AE936E500F4B1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CC7B4181AE9373E00F4B1C5 /* Build configuration list for PBXNativeTarget "MRVectorClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CC7B4191AE9373E00F4B1C5 /* Debug */,
+				0CC7B41A1AE9373E00F4B1C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CC7B4071AE936E500F4B1C5 /* Project object */;
+}
