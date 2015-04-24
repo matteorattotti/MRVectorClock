@@ -56,20 +56,24 @@ switch ([vectorClock compare:secondVectorClock]) {
 #### Merging vector clocks
 Vector clocks can be merged together into a new vector clock, this new clock will be a descendant of the others. This means that the resulting vector clock will have all the max values of the others clocks.
  ```Objective-C
-// {A:2, B:1}
+// (A:2, B:1)
 MRVectorClock *vectorClock = [MRVectorClock new];
 [vectorClock updateClockValueForID:@"A" value:2];
 [vectorClock updateClockValueForID:@"B" value:1];
 
-// {A:1, B:2, C:3}
+// (A:1, B:2, C:3)
 MRVectorClock *secondVectorClock = [MRVectorClock new];
 [vectorClock updateClockValueForID:@"A" value:1];
 [vectorClock updateClockValueForID:@"B" value:2];
 [vectorClock updateClockValueForID:@"C" value:3];
 
-// Merged clock -> {A:2, B:2, C:3}
+// Merged clock -> (A:2, B:2, C:3)
 MRVectorClock *mergedVectorClock = [vectorClock mergeClock:secondVectorClock];
 ```
+
+#### Unit Tests
+
+Unit tests are included, to run the tests, open the Xcode workspace, choose the MRVectorClockTests target in the toolbar at the top, and select the menu item `Product > Test`.
 
 ## License
 This project is distributed under the standard MIT License. Please use this in whatever fashion you wish - feel free to recommend any changes to help the code.
