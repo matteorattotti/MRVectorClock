@@ -17,6 +17,7 @@ MRVectorClock provide most of the basic features you'll need using a Vector Cloc
 - [Update Vector Clock values](https://github.com/matteorattotti/MRVectorClock#update-vector-clock-values)
 - [Vector Clock Comparison](https://github.com/matteorattotti/MRVectorClock#vector-clock-comparison)
 - [Merging Vector Clocks](https://github.com/matteorattotti/MRVectorClock#merging-vecto-clocks)
+- [Serialization and Deserialization](https://github.com/matteorattotti/MRVectorClock#serialization-and-deserialization)
 
 #### Create a MRVectorClock
 Newly created vector clock start out with a value of `0`.
@@ -69,6 +70,20 @@ MRVectorClock *secondVectorClock = [MRVectorClock new];
 
 // Merged clock -> (A:2, B:2, C:3)
 MRVectorClock *mergedVectorClock = [vectorClock mergeClock:secondVectorClock];
+```
+
+#### Serialization and Deserialization
+MRVectorClock instances can be serialized and it's possibile to instantiate new vector clocks for the serialized data:
+ ```Objective-C
+// (A:1)
+MRVectorClock *vectorClock = [MRVectorClock new];
+[vectorClock updateClockValueForID:@"A"];
+
+// Serializing the clock
+NSData *clockData = [vectorClock data];
+
+// Getting a new clock from the serialized data
+MRVectorClock *newVectorClock = [[MRVectorClock alloc]initWithData:clockData];
 ```
 
 #### Unit Tests
