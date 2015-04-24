@@ -16,7 +16,7 @@ MRVectorClock provide most of the basic features you'll need using a Vector Cloc
 - [Create a Vector Clock](https://github.com/matteorattotti/MRVectorClock#create-a-mrvectorclock)
 - [Update Vector Clock values](https://github.com/matteorattotti/MRVectorClock#update-vector-clock-values)
 - [Vector Clock Comparison](https://github.com/matteorattotti/MRVectorClock#vector-clock-comparison)
-- [Merging Vector Clocks](https://github.com/matteorattotti/MRVectorClock#merging-vecto-clocks)
+- [Merging Vector Clocks](https://github.com/matteorattotti/MRVectorClock#merging-vector-clocks)
 - [Serialization and Deserialization](https://github.com/matteorattotti/MRVectorClock#serialization-and-deserialization)
 
 #### Create a MRVectorClock
