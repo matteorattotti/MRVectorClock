@@ -34,12 +34,11 @@
         }
         else {
             NSError *error = nil;
-            _clockValues = [NSPropertyListSerialization propertyListWithData:data options:kCFPropertyListMutableContainers format:NULL error:&error];
+            _clockValues = [NSPropertyListSerialization propertyListWithData:data options:NSPropertyListMutableContainers format:NULL error:&error];
             if (error != nil || _clockValues == nil) {
                 return nil;
             }
         }
-
     }
     return self;
 }
@@ -117,7 +116,7 @@
     __block NSMutableDictionary* clockValues = clock.clockValues;
     
     [[_clockValues allKeys] enumerateObjectsUsingBlock:^(NSNumber* obj, NSUInteger idx, BOOL* stop) {
-        clockValues[obj] = _clockValues[obj];
+        clockValues[obj] = self->_clockValues[obj];
     }];
     
     [[otherVectorClock.clockValues allKeys] enumerateObjectsUsingBlock:^(NSNumber* obj, NSUInteger idx, BOOL* stop) {
@@ -153,7 +152,7 @@
     [representation appendString:@"("];
     
     [orderedIdentifiers enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        NSNumber *value = _clockValues[obj];
+        NSNumber *value = self->_clockValues[obj];
         [representation appendFormat:@"%@:%@", obj, value];
         if (idx != [orderedIdentifiers count]-1) {
             [representation appendString:@", "];
